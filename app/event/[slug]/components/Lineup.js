@@ -16,7 +16,7 @@ export default function Lineup() {
           <li key={i}>
             <div className=" pb-4 flex justify-between">
               <p className="font-bold">{l.name}</p>
-              <p className="text-gray-400">{l.time}</p>
+              {/* <p className="text-gray-400">{l.time}</p> */}
             </div>
             <hr />
           </li>

@@ -52,7 +52,7 @@ const ImageSlider = () => {
 
       {/* Second Row - Mini Images */}
       <div className="grid grid-cols-4 md:gap-8 gap-2">
-        {images.map((image, index) => (
+        {/* {images.map((image, index) => (
           <div
             key={index}
             className="cursor-pointer overflow-hidden rounded-lg"
@@ -64,7 +64,7 @@ const ImageSlider = () => {
               className="w-full md:h-[9rem] h-[5rem] object-cover rounded-lg hover:scale-110 transition-transform duration-300"
             />
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import ImageGallery from './ImageGallery';
 
 const ImageModal = ({ isOpen, onClose, imageUrl, altText, label }) => {
   if (!isOpen) return null;
@@ -15,18 +16,21 @@ const ImageModal = ({ isOpen, onClose, imageUrl, altText, label }) => {
         x
       </button>
       <div className="max-w-4xl w-full">
-        <img
-          src={imageUrl}
-          alt={altText}
-          className="w-full max-h-[80vh] object-contain"
-        />
-        <div className="text-white mt-4">
-          <p className="font-space-grotesk text-lg">{altText}</p>
-          <p className="text-[#FFD700] mt-2">{label}</p>
-        </div>
+        <ImageGallery/>
       </div>
     </div>
   );
 };
 
 export default ImageModal;
+
+
+
+
+
+
+
+
+
+
+

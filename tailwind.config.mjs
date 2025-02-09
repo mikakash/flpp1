@@ -18,7 +18,10 @@ export default {
         'max-677':{"max":"677px"},
         "max-800":{"max":"800px"},
         "max-900":{"max":"900px"},
-      }
+      },
+      fontFamily: {
+        'space-grotesk': ['Space Grotesk', 'sans-serif'],
+      },
     },
   },
   plugins: [],

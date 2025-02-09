@@ -34,11 +34,20 @@
 }
 }
 
+@layer base {
+  body {
+      @apply font-space-grotesk;
+  }
+}
+
+
 body {
   /* color: var(--foreground);
   background: var(--background); */
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  font-family: 'Livvic', sans-serif;
+  /* font-family: 'Open Sans'; */
 }
 
 
@@ -53,6 +62,20 @@ body {
   background-size:cover;
 }
 
+.recommended-modal{
+  background-image:  linear-gradient(rgba(6, 6, 6, 0.99), rgba(0, 0, 0, 0.666)), url("https://cdn.pixabay.com/photo/2024/04/19/16/49/ai-generated-8706677_960_720.jpg"  );
+  background-position: center;
+  background-size:cover;
+  /* filter: blur(5px); */
+  /* background-color: gray; */
+
+}
+
 .react-datepicker-wrapper{
   width: 100%;
+}
+
+.similar-event-img{
+  background-image: url("https://images.unsplash.com/photo-1737798388229-2524c7777c60");
+  background-position: center;
 }

@@ -55,7 +55,7 @@ const MenuModal = ({ isOpen, onClose, handleMenuClick }) => {
               </div>
               <nav className="flex-1 flex items-center justify-center">
                   <div className="space-y-8 text-center">
-                      <Link href="#" onClick={handleMenuClick} className="block text-2xl font-space-grotesk text-black hover:text-[#FFD700] transition-colors py-2">
+                      <Link href="/submit-event" onClick={handleMenuClick} className="block text-2xl font-space-grotesk text-black hover:text-[#FFD700] transition-colors py-2">
                           Submit Event
                       </Link>
                       <Link href="/gallery-viewer" onClick={handleMenuClick} className="block text-2xl font-space-grotesk text-black hover:text-[#FFD700] transition-colors py-2">
