@@ -1,4 +1,4 @@
-import Banner from "../components/Banner";
+
 import AboutSection from "./AboutSection";
 import AmenitiesSection from "./AmenitiesSection";
 import LocationSection from "./LocationSection";
@@ -88,13 +88,13 @@ const Page = () => {
   };
 
   return (
-    <main className="">
+    <main className="md:pt-10 pt-4 ">
        <VenueHero
           imageUrl={venueData.imageUrl}
           venueName={venueData.venueName}
           address={venueData.address}
         />
-      <div className="max-w-7xl mx-auto pt-24 px-6 pb-24">
+      <div className="max-w-7xl mx-auto px-6 pb-24">
        
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           <div className="lg:col-span-2 space-y-12">
@@ -119,7 +119,7 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <Banner/>
+      {/* <Banner/> */}
     </main>
   );
 };

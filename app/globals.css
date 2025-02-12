@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -78,4 +83,14 @@ body {
 .similar-event-img{
   background-image: url("https://images.unsplash.com/photo-1737798388229-2524c7777c60");
   background-position: center;
+}
+
+
+
+
+* {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
 }

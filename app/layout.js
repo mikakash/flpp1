@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "./components/header/Header";
-import Footer from "./components/footer";
+// import Header from "./components/header/Header";
+import Footer from "./HomeHub/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,8 +36,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased box-border w-full`}
       >
-        <Header />
-        <div style={{ paddingTop: "76px" }}></div>
+        {/* <Header /> */}
+        <div style={{ paddingTop: "55px" }}></div>
         {children}
         <Footer />
       </body>
